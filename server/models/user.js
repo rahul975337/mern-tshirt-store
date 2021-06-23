@@ -32,7 +32,7 @@ var userSchema = new mongoose.Schema(
     salt: String,
     role: {
       type: Number,
-      default: 0
+      default: 0//role 0 is for user and role 1 is for ... and so on...
     },
     purchases: {
       type: Array,
